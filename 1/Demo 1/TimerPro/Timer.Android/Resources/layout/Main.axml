@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent"
+    p1:id="@+id/relativeLayout1">
+    <TextView
+        p1:text="Timer Pro"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1"
+        p1:layout_marginTop="34.0dp"
+        p1:gravity="center" />
+    <TextView
+        p1:text="00:00:00"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/textView1"
+        p1:id="@+id/lblDisplay"
+        p1:layout_marginTop="32.7dp"
+        p1:gravity="center" />
+    <Button
+        p1:text="Start"
+        p1:layout_width="100.0dp"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/lblDisplay"
+        p1:id="@+id/btnStart"
+        p1:layout_marginTop="70.0dp"
+        p1:layout_marginLeft="60.0dp" />
+    <Button
+        p1:text="Stop"
+        p1:layout_width="100.0dp"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/lblDisplay"
+        p1:id="@+id/btnStop"
+        p1:layout_toRightOf="@id/btnStart"
+        p1:layout_marginLeft="25.0dp"
+        p1:layout_marginTop="70.0dp" />
+    <Button
+        p1:text="Reset"
+        p1:layout_width="225.0dp"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/btnStart"
+        p1:id="@+id/btnReset"
+        p1:layout_marginTop="30.0dp"
+        p1:layout_marginLeft="60.0dp" />
+</RelativeLayout>

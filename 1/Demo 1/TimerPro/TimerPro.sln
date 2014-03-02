@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer.IOS", "Timer.IOS\Timer.IOS.csproj", "{EC69EC04-77D6-42AE-BDEF-A1044B6086A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{E79F2B58-DDEF-4990-8CB7-9DC1E1126A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer.Android", "Timer.Android\Timer.Android.csproj", "{EB1DAE14-ABFC-4EA9-BCDB-F944DB798840}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E79F2B58-DDEF-4990-8CB7-9DC1E1126A10}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{E79F2B58-DDEF-4990-8CB7-9DC1E1126A10}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{E79F2B58-DDEF-4990-8CB7-9DC1E1126A10}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{E79F2B58-DDEF-4990-8CB7-9DC1E1126A10}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{E79F2B58-DDEF-4990-8CB7-9DC1E1126A10}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{E79F2B58-DDEF-4990-8CB7-9DC1E1126A10}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{E79F2B58-DDEF-4990-8CB7-9DC1E1126A10}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E79F2B58-DDEF-4990-8CB7-9DC1E1126A10}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E79F2B58-DDEF-4990-8CB7-9DC1E1126A10}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{E79F2B58-DDEF-4990-8CB7-9DC1E1126A10}.Release|iPhone.Build.0 = Release|Any CPU
+		{E79F2B58-DDEF-4990-8CB7-9DC1E1126A10}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E79F2B58-DDEF-4990-8CB7-9DC1E1126A10}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{EB1DAE14-ABFC-4EA9-BCDB-F944DB798840}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{EB1DAE14-ABFC-4EA9-BCDB-F944DB798840}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{EB1DAE14-ABFC-4EA9-BCDB-F944DB798840}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{EB1DAE14-ABFC-4EA9-BCDB-F944DB798840}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{EB1DAE14-ABFC-4EA9-BCDB-F944DB798840}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{EB1DAE14-ABFC-4EA9-BCDB-F944DB798840}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{EB1DAE14-ABFC-4EA9-BCDB-F944DB798840}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{EB1DAE14-ABFC-4EA9-BCDB-F944DB798840}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{EB1DAE14-ABFC-4EA9-BCDB-F944DB798840}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{EB1DAE14-ABFC-4EA9-BCDB-F944DB798840}.Release|iPhone.Build.0 = Release|Any CPU
+		{EB1DAE14-ABFC-4EA9-BCDB-F944DB798840}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{EB1DAE14-ABFC-4EA9-BCDB-F944DB798840}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{EC69EC04-77D6-42AE-BDEF-A1044B6086A2}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{EC69EC04-77D6-42AE-BDEF-A1044B6086A2}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{EC69EC04-77D6-42AE-BDEF-A1044B6086A2}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{EC69EC04-77D6-42AE-BDEF-A1044B6086A2}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{EC69EC04-77D6-42AE-BDEF-A1044B6086A2}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{EC69EC04-77D6-42AE-BDEF-A1044B6086A2}.Debug|iPhone.Build.0 = Debug|iPhone
+		{EC69EC04-77D6-42AE-BDEF-A1044B6086A2}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{EC69EC04-77D6-42AE-BDEF-A1044B6086A2}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{EC69EC04-77D6-42AE-BDEF-A1044B6086A2}.Release|iPhone.ActiveCfg = Release|iPhone
+		{EC69EC04-77D6-42AE-BDEF-A1044B6086A2}.Release|iPhone.Build.0 = Release|iPhone
+		{EC69EC04-77D6-42AE-BDEF-A1044B6086A2}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{EC69EC04-77D6-42AE-BDEF-A1044B6086A2}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Timer.IOS\Timer.IOS.csproj
+	EndGlobalSection
+EndGlobal

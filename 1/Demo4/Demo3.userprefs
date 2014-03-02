@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone.6.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Demo3/ThirdViewController.cs">
+    <Files>
+      <File FileName="Demo3/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="Demo3/ThirdViewController.cs" Line="25" Column="3" />
+      <File FileName="Demo3/SecondViewController.cs" Line="10" Column="62" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

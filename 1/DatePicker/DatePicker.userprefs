@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DatePicker/MainActivity.cs">
+    <Files>
+      <File FileName="DatePicker/MainActivity.cs" Line="42" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DatePicker AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+</Properties>

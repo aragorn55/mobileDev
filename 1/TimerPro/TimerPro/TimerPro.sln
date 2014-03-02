@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerPro.IOS", "TimerPro.IOS\TimerPro.IOS.csproj", "{ABDBA5E6-DAA0-40CF-95DD-3CD2501E8011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{1237D3CE-BDA0-4463-B995-555AD37278A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerPro.Android", "TimerPro.Android\TimerPro.Android.csproj", "{E4B7CF37-781F-403D-BFE5-17516F2829AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1237D3CE-BDA0-4463-B995-555AD37278A3}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{1237D3CE-BDA0-4463-B995-555AD37278A3}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{1237D3CE-BDA0-4463-B995-555AD37278A3}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{1237D3CE-BDA0-4463-B995-555AD37278A3}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{1237D3CE-BDA0-4463-B995-555AD37278A3}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{1237D3CE-BDA0-4463-B995-555AD37278A3}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{1237D3CE-BDA0-4463-B995-555AD37278A3}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{1237D3CE-BDA0-4463-B995-555AD37278A3}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{1237D3CE-BDA0-4463-B995-555AD37278A3}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{1237D3CE-BDA0-4463-B995-555AD37278A3}.Release|iPhone.Build.0 = Release|Any CPU
+		{1237D3CE-BDA0-4463-B995-555AD37278A3}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{1237D3CE-BDA0-4463-B995-555AD37278A3}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{ABDBA5E6-DAA0-40CF-95DD-3CD2501E8011}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{ABDBA5E6-DAA0-40CF-95DD-3CD2501E8011}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{ABDBA5E6-DAA0-40CF-95DD-3CD2501E8011}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{ABDBA5E6-DAA0-40CF-95DD-3CD2501E8011}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{ABDBA5E6-DAA0-40CF-95DD-3CD2501E8011}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{ABDBA5E6-DAA0-40CF-95DD-3CD2501E8011}.Debug|iPhone.Build.0 = Debug|iPhone
+		{ABDBA5E6-DAA0-40CF-95DD-3CD2501E8011}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{ABDBA5E6-DAA0-40CF-95DD-3CD2501E8011}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{ABDBA5E6-DAA0-40CF-95DD-3CD2501E8011}.Release|iPhone.ActiveCfg = Release|iPhone
+		{ABDBA5E6-DAA0-40CF-95DD-3CD2501E8011}.Release|iPhone.Build.0 = Release|iPhone
+		{ABDBA5E6-DAA0-40CF-95DD-3CD2501E8011}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{ABDBA5E6-DAA0-40CF-95DD-3CD2501E8011}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{E4B7CF37-781F-403D-BFE5-17516F2829AD}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{E4B7CF37-781F-403D-BFE5-17516F2829AD}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{E4B7CF37-781F-403D-BFE5-17516F2829AD}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{E4B7CF37-781F-403D-BFE5-17516F2829AD}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{E4B7CF37-781F-403D-BFE5-17516F2829AD}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{E4B7CF37-781F-403D-BFE5-17516F2829AD}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{E4B7CF37-781F-403D-BFE5-17516F2829AD}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E4B7CF37-781F-403D-BFE5-17516F2829AD}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E4B7CF37-781F-403D-BFE5-17516F2829AD}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{E4B7CF37-781F-403D-BFE5-17516F2829AD}.Release|iPhone.Build.0 = Release|Any CPU
+		{E4B7CF37-781F-403D-BFE5-17516F2829AD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E4B7CF37-781F-403D-BFE5-17516F2829AD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = TimerPro.Android\TimerPro.Android.csproj
+	EndGlobalSection
+EndGlobal

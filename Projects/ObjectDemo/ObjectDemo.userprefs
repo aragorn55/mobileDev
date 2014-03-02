@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ObjectDemo/MainActivity.cs">
+    <Files>
+      <File FileName="ObjectDemo/MyApp.cs" Line="19" Column="15" />
+      <File FileName="ObjectDemo/MainActivity.cs" Line="4" Column="23" />
+      <File FileName="ObjectDemo/Person.cs" Line="23" Column="24" />
+      <File FileName="ObjectDemo/DisplayActivity.cs" Line="24" Column="65" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ObjectDemo MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="emulator-5554" />
+</Properties>

@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TimerPro.Android/MainActivity.cs">
+    <Files>
+      <File FileName="TimerPro.IOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="TimerPro.IOS/TimerPro_IOSViewController.cs" Line="12" Column="49" />
+      <File FileName="Core/CustomTimer.cs" Line="28" Column="21" />
+      <File FileName="TimerPro.Android/MainActivity.cs" Line="61" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TimerPro.Android MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+</Properties>

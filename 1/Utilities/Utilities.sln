@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities.DB", "Utilities.DB\Utilities.DB.csproj", "{FECFF463-9F8A-491E-8F19-BC3FFB61FA8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{550326D1-005F-4594-83D0-FF1A191DA512}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{550326D1-005F-4594-83D0-FF1A191DA512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550326D1-005F-4594-83D0-FF1A191DA512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550326D1-005F-4594-83D0-FF1A191DA512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550326D1-005F-4594-83D0-FF1A191DA512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECFF463-9F8A-491E-8F19-BC3FFB61FA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECFF463-9F8A-491E-8F19-BC3FFB61FA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECFF463-9F8A-491E-8F19-BC3FFB61FA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECFF463-9F8A-491E-8F19-BC3FFB61FA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Utilities.DB\Utilities.DB.csproj
+	EndGlobalSection
+EndGlobal

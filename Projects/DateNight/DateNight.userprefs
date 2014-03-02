@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone.6.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DateNight/Shopping.cs">
+    <Files>
+      <File FileName="DateNight/Coffee.cs" Line="31" Column="1" />
+      <File FileName="DateNight/Movie.cs" Line="31" Column="1" />
+      <File FileName="DateNight/Shopping.cs" Line="35" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
