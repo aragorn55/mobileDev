@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+        Remove this if you use the .htaccess -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+        <title>lab2</title>
+        <meta name="description" content="" />
+        <meta name="author" content="500124115" />
+
+        <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+    </head>
+
+    <body>
+        <div>
+            <header>
+                <h1>in class 10-7-13 #1</h1>
+            </header>
+            
+
+            <div>
+                 <script>
+                var numberQAs; // number of questions in the test
+                var inputValue; // where the user input is stored
+                       // Ask the user to enter then number of questions
+             numberQAs = prompt("Please enter the number of questions ", "");
+             numberQAs = parseInt(numberQAs);
+            //loop one for each question 
+            for (var i = 0; i < numberQAs; i++)
+                {
+                    //ask user to enter answer for current question
+                    inputValue = prompt("Please enter your answer 'A,B,C or D for Question :" + i, "");
+                    inputValue = toUpper(inputValue);
+                     switch (true)
+            {
+                    //check if value is a non negative value and less than taxed amount 
+            case (inputValue == "A"):
+            {
+                alert("");
+                document.write("You entered an A");
+               break;
+               }
+               case (inputValue == "B"):
+            {
+                alert("");
+                document.write("You entered a B");
+               break;
+               }
+               case (inputValue == "C"):
+            {
+                alert("");
+                document.write("You entered a C");
+               break;
+               }
+               case (inputValue == "D"):
+            {
+                alert("");
+                document.write("You entered a D");
+               break;
+               }
+               default:
+            {
+                document.write("Not a grade")
+            }
+
+                }
+            
+           }
+                 </script>
+
+            </div>
+
+            <footer>
+                <p>
+                    &copy; Copyright  by 500124115
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

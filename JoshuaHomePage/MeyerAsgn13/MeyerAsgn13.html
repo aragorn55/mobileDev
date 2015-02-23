@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>MeyerAsgn9</title>
+  <meta name="description" content="">
+  <meta name="author" content="joshua">
+
+</head>
+
+<body>
+  <div>
+    <header>
+      
+       <h1>Name: joshua meyer</h1>
+                <h1>Student ID: 500124115</h1>
+                <h1>Email: jmeyer1215@gmail.com</h1>
+                <h1>Assignment 11</h1>
+    </header>
+    <nav>
+      <script>
+      // array of sports
+       var sportArray = new Array();
+       sportArray[0] = "Football";
+       sportArray[1] = "Basketball";
+       sportArray[2] = "Rollerblading";
+       sportArray[3] = "Hiking";
+       sportArray[4] = "Biking";
+       sportArray[5] = "Swimming";
+       
+       var x = 0; //user score
+       var userName = ""; //user name
+      //ask user for a name untill they enter something
+       while (userName.length == 0)
+{
+	//outpu savings account balance
+	 userName = prompt("Please enter your name:", "");
+	
+}
+
+for (var count = 1; count <= 3; count++)
+	{
+		 var userChoice = "";
+		 //ask user for a sport untill they enter something
+		while (userChoice.length == 0)
+{
+	//outpu savings account balance
+	 userChoice = prompt("Please Guess a Sport:", "");
+	 // if user cancels call them a chiken
+	 if (userChoice == null)
+	 {
+	 	alert(userName +", you are chicken!");
+	 }
+	
+}
+		//create capitalize first letter of user input
+		var toCap = userChoice.slice(0, 1).toUpperCase();
+		var toLower = userChoice.slice(1).toLowerCase();
+		userChoice = toCap + toLower;
+		// search for user input in array
+		if (sportArray.indexOf(userChoice) >= 0)
+		{
+			document.write("“You are good, try it again!<br \>");
+			x = x + 5;
+			
+		}
+		else{
+			document.write("Good for you! Guess Again<br \>");
+			document.write("Sorry, Guess Again<br \>");
+			x = x - 5;
+		}
+	}
+	// check how they did
+	if (x == 15)
+	{
+		document.write(userName +", you are a mind reader!<br \>");
+	}
+	else if (x >= 0)
+	{
+		document.write(userName +", you are not bad<br \>");
+	}
+	else
+	{
+		document.write(userName +", you do not demonstrate ESP tendencies at this time<br \>");
+		
+	}
+	
+
+
+
+        </script>
+    </nav>
+
+    <div>
+       <p>
+                    <a href="../indeuserName.html">Home</a>
+                </p>
+    </div>
+
+    <footer>
+     <p>&copy; Copyright  by joshua</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+
+        <title>lab4</title>
+        <meta name="description" content="" />
+        <meta name="author" content="500124115" />
+
+
+    </head>
+
+    <body>
+        <div>
+            <header>
+                <h1>lab4</h1>
+            </header>
+
+                
+
+            <div>
+                <script>
+                
+                
+               var studentActivities;
+               var studentPermission;
+               var studentGroup;
+                  //   var inputValue; // where the user input is stored
+                       // Ask the user to enter a grade
+            studentActivities = prompt("Does the student have after school activities (Y/N)? ", "");
+            studentActivities =  toUpper(studentActivities);
+            
+            studentPermission = prompt("Does the student have after their parents permission (Y/N)? ", "");
+            studentPermission =  toUpper(studentPermission);
+            if (studentActivities === "Y")
+            {
+               if (studentPermission === "Y")
+               {
+                   studentGroup = "b";
+                   document.write("stdent is in group " + studentGroup);
+               }
+               else if(studentPermission === "N")
+               {
+                   studentGroup = "c";
+                   document.write("stdent is in group " + studentGroup);
+               }
+               else
+               {
+                    document.write("invalid answer use Y or N ");
+               }
+               }
+               else if(studentActivities === "N")
+               {
+               studentGroup = "b";
+                   document.write("stdent is in group " + studentGroup);
+               }
+               else
+               {
+                    document.write("invalid answer use Y or N ");
+               }
+          
+            
+                //if yes then
+                // check if student has  parents permission
+                // if yes  then 
+                // then set students group = b
+                 // if no  then 
+                // then set students group = c
+                // if no activities then
+                // then set students group = a
+               
+                               </script>
+
+            </div>
+
+            
+        </div>
+    </body>
+</html>

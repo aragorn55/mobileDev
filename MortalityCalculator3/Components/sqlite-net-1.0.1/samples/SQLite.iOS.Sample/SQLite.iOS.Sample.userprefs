@@ -1,0 +1,31 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../MortalityCalculatorIOS.OB/cDeathCalculator.cs">
+    <Files>
+      <File FileName="../../../../MortalityCalculatorIOS.UI/Main.cs" Line="19" Column="3" />
+      <File FileName="List.cs" Line="1" Column="1" />
+      <File FileName="ListItem.cs" Line="1" Column="1" />
+      <File FileName="Main.cs" Line="1" Column="1" />
+      <File FileName="TaskListsViewController.cs" Line="1" Column="1" />
+      <File FileName="../../../../MortalityCalculatorIOS.OB/cDeathCalculator.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="MortalityCalculatorIOS.OB" expanded="True">
+            <Node name="cDeathCalculator.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/student/Desktop/School/MortalityCalculator/MortalityCalculator/MainUI.cs" line="14" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

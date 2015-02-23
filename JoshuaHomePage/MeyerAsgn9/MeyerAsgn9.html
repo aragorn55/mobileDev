@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>MeyerAsgn9</title>
+  <meta name="description" content="">
+  <meta name="author" content="joshua">
+
+</head>
+
+<body>
+  <div>
+    <header>
+      
+       <h1>Name: joshua meyer</h1>
+                <h1>Student ID: 500124115</h1>
+                <h1>Email: jmeyer1215@gmail.com</h1>
+                <h1>Assignment 9</h1>
+    </header>
+    <nav>
+      <script>
+       var strFall = "Yesterday was the first day of the fall season!";
+       var strTrees = "The trees are turning colors ALREADY!";
+       var strSentence = strTrees + strFall;
+       document.write("The length of this string is " + strFall.length + " .<br />");
+        document.write(strSentence + "<br />");
+        document.write("The word first begins in position " + strSentence.indexOf("first") + " from the beginning of the string.<br />");
+        document.write("The word first begins in position " + strSentence.lastIndexOf("first").tol + " from the end of the string. <br />");
+        var strOneWord = strSentence.substr(29, 7);
+         document.write("I have extracted the word " + strOneWord.toLowerCase() + " from the string.<br />");
+         var strLastChar =  strFall.charAt(strFall.length - 1); 
+         document.write("The last character in the strFall string is "+ strLastChar + ".<br />");
+         var clrArray = ["red", "blue", "yellow", "orange", "green", "white", "black"];
+         var clrChoice;
+         clrChoice = prompt("Please enter a number between 1 and 7 ", "");
+         if (!isNaN(clrChoice))
+         {
+         	clrChoice = parseInt(clrChoice);
+         	switch (clrChoice)
+            {
+                    //check if value is a non negative value and less than taxed amount 
+            case  1:
+            {
+                document.write("You have selected the color " + clrArray[clrChoice] + " by entering the number " +clrChoice + ".<br />");
+               break;
+               }
+
+            //check if value is greater than non taxed amount and less than bracket 1 max value
+            case 2:
+            {
+            	// take income times the tax bracket 1 rate
+                document.write("You have selected the color " + clrArray[clrChoice] + " by entering the number " +clrChoice + ".<br />");
+            break;
+               }
+            //check if
+            case 3:
+            {
+            	// take income times the tax bracket 1 rate
+                document.write("You have selected the color " + clrArray[clrChoice] + " by entering the number " +clrChoice + ".<br />");
+            break;
+               }
+               case 4:
+            {
+            	// take income times the tax bracket 1 rate
+                document.write("You have selected the color " + clrArray[clrChoice] + " by entering the number " +clrChoice + ".<br />");
+            break;
+               }
+               case 4:
+            {
+            	// take income times the tax bracket 1 rate
+                  document.write("You have selected the color " + clrArray[clrChoice] + " by entering the number " +clrChoice + ".<br />");
+           break;
+               }
+               case 5:
+            {
+            	// take income times the tax bracket 1 rate
+                 document.write("You have selected the color " + clrArray[clrChoice] + " by entering the number " +clrChoice + ".<br />");
+            break;
+               }
+               case 6:
+            {
+            	// take income times the tax bracket 1 rate
+                 document.write("You have selected the color " + clrArray[clrChoice] + " by entering the number " +clrChoice + ".<br />");
+            break;
+            
+               } case 7:
+            {
+            	// take income times the tax bracket 1 rate
+                  document.write("You have selected the color " + clrArray[clrChoice] + " by entering the number " +clrChoice + ".<br />");
+           break;
+               }
+            
+            default:
+            {
+                document.write("Please enter a number between 1 and 7");
+            break;
+               }
+            }
+            
+            
+         }
+
+         else 
+            {
+            	document.write("Please enter a number between 1 and 7");
+            }
+         var firstNameArray = ["Tom,", "Joe", "Amy", "Ted", "John", "Kris"];
+         firstNameArray.sort();
+         var elementIndex;
+         for (elementIndex = 0; elementIndex < firstNameArray.length; elementIndex++)
+         {
+         	document.write(firstNameArray[elementIndex] + ".<br />");
+         }
+      </script>
+    </nav>
+
+    <div>
+       <p>
+                    <a href="../index.html">Home</a>
+                </p>
+    </div>
+
+    <footer>
+     <p>&copy; Copyright  by joshua</p>
+    </footer>
+  </div>
+</body>
+</html>

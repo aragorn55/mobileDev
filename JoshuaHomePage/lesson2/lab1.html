@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <!-- 
+        Name: joshua meyer
+        Student ID: 500124115
+        Class: Introduction to JavaScript 81462
+        Email: jmeyer1215@gmail.com
+        -->
+
+        <title>lab1</title>
+        <meta name="description" content="" />
+        <meta name="author" content="500124115" />
+
+        <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+        
+    </head>
+
+    <body>
+        <div>
+            <header>
+                <h1>Name: joshua meyer</h1>
+                <h1>Student ID: 500124115</h1>
+                <h1>Email: jmeyer1215@gmail.com</h1>
+                <h1>lab1</h1>
+                
+            </header>
+             <script>
+            // declare variables
+            var numWrkHrsInYr = 2080;    // The number of work hours in the year
+            var ficaRate = .0765; //the fica tax Rate
+            var stateRate = .055; // the state tax Rate
+            var federalRate = .15; // the federal tax Rate
+            var hourlyWage;  // The dollars per hour the user earns
+            var grossPay; // gross total yearly pay
+            var netPay; // net total yearly pay
+            var ficaTax; //the fica tax the user owes
+            var stateTax; // the state tax the user owes
+            var federalTax; // the federal tax the user owes
+            var totalTax; // the total taxs the user owes
+            
+            //+++++++++++++++++++++ INPUT +++++++++++++++++++++++
+                    // Ask the user their hourly wage
+                    hourlyWage = prompt("Please enter the number of dollars per hour you earn ", "");
+                    // convert user input to float
+                    hourlyWage = parseFloat(hourlyWage);
+                    
+                    //+++++++++++++++++++++ PROCESS +++++++++++++++++++++++
+                    // Set total pay =  wage * 2080
+                    grossPay = hourlyWage * numWrkHrsInYr;
+                    // Set fica tax amount = total pay * the fica tax Rate
+                    ficaTax = grossPay * ficaRate;
+                    // State tax amount = total pay  * the state tax Rate
+                    stateTax = grossPay * stateRate;
+                    //federal tax amount = total pay * the federal tax Rate
+                    federalTax = grossPay * federalRate;
+                    // set total taxes = fica amount + state tax amount + federal tax amount
+                    totalTax = ficaTax + stateTax + federalTax;
+                    //set net pay = total pay - total tax amount
+                    netPay = grossPay - totalTax;
+                    //+++++++++++++++++++++ OUTPUT +++++++++++++++++++++++
+                    //print out hourly wage 
+                    document.write("You make $" + hourlyWage + " per hour <br />");
+
+                    //print total pay 
+                    document.write("You make a gross total of $" + grossPay + " per year <br />");
+
+                    //print the fica tax the user owes
+                    document.write("You owe a total of $" + ficaTax + " per year in FICA taxes <br />");
+
+                    //print the state tax the user owes 
+                     document.write("You owe a total of $" + stateTax + " per year in state taxes <br />");
+ 
+                    //print  the federal tax the user owes
+                     document.write("You owe a total of $" + federalTax + " per year in federalRate taxes <br />");
+
+                    //print the  net total yearly pay
+                    document.write("You make a net total of $" + netPay + " per year <br />");
+
+                    
+            
+            </script>
+            
+             <p>
+                    <a href="../index.html">Home</a>
+                </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>MeyerAsgn9</title>
+  <meta name="description" content="">
+  <meta name="author" content="joshua">
+
+</head>
+
+<body>
+  <div>
+    <header>
+      
+       <h1>Name: joshua meyer</h1>
+                <h1>Student ID: 500124115</h1>
+                <h1>Email: jmeyer1215@gmail.com</h1>
+     <script>
+
+function getName () {
+  var name = prompt("What is your name?", "");
+  document.write(name);
+  return;
+}
+function returnName () {
+  var name = prompt("What is your name?", "");
+  document.write(name);
+  return name;
+}
+function ages (age1, age2) {
+  var total = age1 + age2;
+  return total;
+}
+function changeBackground () {
+    document.body.bgColor = "#00f";
+  return;
+}
+function changeBackgroundTo (color) {
+    document.body.bgColor = color;
+  return;
+}
+        </script>
+
+    </header>
+    <nav>
+      <script>
+      //alert("before Calling function");
+      //var rName = returnName();
+      //alert("after Calling function");
+      //alert("Name =" + name + "\n");
+       //     alert("rName =" + rName + "\n");
+      var person1age = parseFloat(prompt("What is your Age?", ""));
+      var person2age = parseFloat(prompt("What is your Age?", ""));
+      
+      var totalAge = ages(person1age, person2age);
+      document.write(totalAge);
+      changeBackground();
+      var input = prompt("Pick a color", "")
+      changeBackground();
+      changeBackgroundTo(input);
+
+
+        </script>
+        <p id="par"></p><br /><br />
+        <input type="button" value="Add text" onclick="addText()" /><br /><br />
+        <script>
+        function addText () {
+            document.getElementById('par').innerHTML = "This is the new text.";
+          
+        }
+        
+        
+        
+        
+        </script>
+    </nav>
+
+    <div>
+       <p>
+                    <a href="../indeuserName.html">Home</a>
+                </p>
+    </div>
+
+    <footer>
+     <p>&copy; Copyright  by joshua</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPad.6.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MortalityCalculator.IOS/cLifeStyleVC.cs">
+    <Files>
+      <File FileName="MortalityCalculator.IOS/cLifeStyleVC.cs" Line="42" Column="29" />
+      <File FileName="MortalityCalculator.IOS/cPhysicalVC.cs" Line="34" Column="1" />
+      <File FileName="MortalityCalculator.IOS/cResultsVC.cs" Line="28" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="DateNight" expanded="True">
+            <Node name="Images" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

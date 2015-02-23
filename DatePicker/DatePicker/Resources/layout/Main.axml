@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent"
+    p1:id="@+id/relativeLayout1">
+    <TextView
+        p1:text="00/00/00"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="44.7dp"
+        p1:id="@+id/lblDisplay" />
+    <Button
+        p1:text="Choose Date"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/lblDisplay"
+        p1:id="@+id/btnChooseDate"
+        p1:layout_marginTop="20.7dp" />
+</RelativeLayout>

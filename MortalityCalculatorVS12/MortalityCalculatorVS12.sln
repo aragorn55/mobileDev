@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortalityCalculatorVS12", "MortalityCalculatorVS12\MortalityCalculatorVS12.csproj", "{EA813B7A-72BA-4839-81E3-5077D3DC6A18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortalityCalculator.OB", "MortalityCalculator.OB\MortalityCalculator.OB.csproj", "{EE92A009-4772-435A-808A-BC16725DBF94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities.OB", "Utilities.OB\Utilities.OB.csproj", "{4F0763A6-95D6-4275-A1AC-633D786F428A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA813B7A-72BA-4839-81E3-5077D3DC6A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA813B7A-72BA-4839-81E3-5077D3DC6A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA813B7A-72BA-4839-81E3-5077D3DC6A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA813B7A-72BA-4839-81E3-5077D3DC6A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE92A009-4772-435A-808A-BC16725DBF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE92A009-4772-435A-808A-BC16725DBF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE92A009-4772-435A-808A-BC16725DBF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE92A009-4772-435A-808A-BC16725DBF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0763A6-95D6-4275-A1AC-633D786F428A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0763A6-95D6-4275-A1AC-633D786F428A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0763A6-95D6-4275-A1AC-633D786F428A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0763A6-95D6-4275-A1AC-633D786F428A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

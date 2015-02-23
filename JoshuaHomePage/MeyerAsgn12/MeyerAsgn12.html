@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>MeyerAsgn9</title>
+  <meta name="description" content="">
+  <meta name="author" content="joshua">
+
+</head>
+
+<body>
+  <div>
+    <header>
+      
+       <h1>Name: joshua meyer</h1>
+                <h1>Student ID: 500124115</h1>
+                <h1>Email: jmeyer1215@gmail.com</h1>
+                <h1>Assignment 11</h1>
+    </header>
+    <nav>
+      <script>
+       //  holds the 3 character names of the first 6 months of the year.
+       var monthArray = new Array();
+       monthArray[0] = "Jan";
+       monthArray[1] = "Feb";
+       monthArray[2] = "Mar";
+       monthArray[3] = "Apr";
+       monthArray[4] = "May";
+       monthArray[5] = "Jun";
+       document.write("The beginning array is: <br />");    
+       // list months
+       for (var count = 0; count < monthArray.length; count++) {
+
+				document.write(monthArray[count] + "<br />");			
+			}
+			// add july  the August to months
+    monthArray.push("Jul");
+      monthArray.push("Aug");
+       document.write("The new array after adding 2 months is : <br />");    
+        // list months
+       for (var count = 0; count < monthArray.length; count++) {
+
+				document.write(monthArray[count] + "<br />");			
+			}
+			document.write("The length of the new array is: " + monthArray.length  + "<br />");
+			//remove august
+		monthArray.pop();
+ document.write("The new array after reversing the elements is: : <br />");    
+  // list months
+       for (var count = 0; count < monthArray.length; count++) {
+
+				document.write(monthArray[count] + "<br />");			
+			}
+			//reverse month list
+monthArray.reverse();
+ document.write("The new array after reversing the elements is: <br />");  
+  // list months  
+       for (var count = 0; count < monthArray.length; count++) {
+
+				document.write(monthArray[count] + "<br />");			
+			}
+			//make small list of arpril - jun
+var springArray = monthArray.slice(1, 4);
+ document.write("The new sub array of the month array has the elements: <br />");    
+  // list months of small list
+       for (var count = 0; count < springArray.length; count++) {
+
+				document.write(springArray[count] + "<br />");			
+			}
+			// create one string out of all of the concatenated elements in the monthArray separated by an asterisk (*)
+			
+			var joinString = monthArray.join('*');
+			//display string
+ document.write("The concatenated elements create the string: <br />");    
+       
+				document.write(joinString + "<br />");			
+				//add the current month at the beginning of the array.
+ monthArray.unshift("Oct");
+   // list months
+ document.write("The array after adding the current month has the elements: <br />");    
+       for (var count = 0; count < monthArray.length; count++) {
+
+				document.write(monthArray[count] + "<br />");			
+			}
+			
+
+        </script>
+    </nav>
+
+    <div>
+       <p>
+                    <a href="../index.html">Home</a>
+                </p>
+    </div>
+
+    <footer>
+     <p>&copy; Copyright  by joshua</p>
+    </footer>
+  </div>
+</body>
+</html>

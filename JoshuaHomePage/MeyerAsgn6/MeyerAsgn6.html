@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <!-- 
+        Name: joshua meyer
+        Student ID: 500124115
+        Class: Introduction to JavaScript 81462
+        Email: jmeyer1215@gmail.com
+        -->
+
+        <title>Assignment 6</title>
+        <meta name="description" content="" />
+        <meta name="author" content="500124115" />
+
+        <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+        
+    </head>
+
+    <body>
+        <div>
+            <header>
+                <h1>Name: joshua meyer</h1>
+                <h1>Student ID: 500124115</h1>
+                <h1>Email: jmeyer1215@gmail.com</h1>
+                <h1>Assignment 6</h1>
+                
+            </header>
+             <script>
+            // declare variables
+            
+            var bracket1Rate; // the tax percentage for tax bracket 1
+            var bracket2Rate; // the tax percentage for tax bracket 2
+            var incomeInput;  // the income amount entered by the user
+            var nonTaxedIncome ; // the income amount that will not be charged taxes
+           
+            var bracket1Tax; //the highest income for tax bracket 1
+            var bracket2Tax; // the highest income for tax bracket 12
+           var taxTotal; //calulated tax
+            
+            //+++++++++++++++++++++ Assignments section +++++++++++++++++++++++
+            		  // Assign $1500 as the highest income amount that will not be charged taxes
+                    nonTaxedIncome = 1500.00;
+                    // Assign the highest income for tax bracket 1 to be $25K
+                    bracket1Tax = 25000;
+                    // the tax bracket 1 percent to 15%
+                    bracket1Rate = .15;
+                    // Assign the highest income for tax bracket 2 to be $40K
+                    bracket2Tax = 40000;
+                    // the tax bracket 2 percent to 20%
+                    bracket2Rate = .20;
+                    // Ask the user to enter a dollar amount
+                    incomeInput = prompt("Please enter an income amount ", "");
+                    // convert user input to float
+                    incomeInput = parseFloat(incomeInput);
+                    
+                    //+++++++++++++++++++++ Logic and Output section +++++++++++++++++++++++
+                    //check if value is a non negative value and less than taxed amount 
+             if(incomeInput > 0 && incomeInput <= nonTaxedIncome)
+            {
+            	alert("You will not be charged on your income");
+                document.write("You will need to pay 0 on your " + incomeInput + " income.");
+            }
+            //check if value is greater than non taxed amount and less than bracket 1 max value
+            else if(incomeInput > nonTaxedIncome && incomeInput <= bracket1Tax)
+            {
+            	// take income times the tax bracket 1 rate
+            	taxTotal = incomeInput  * bracket1Rate;
+                document.write("You will need to pay " + taxTotal + " on your " + incomeInput + " income.");
+            }
+            //check if value is greater than bracket 1 max value and less than bracket 2 max value
+            else if(incomeInput > bracket1Tax && incomeInput <= bracket2Tax)
+            {
+            	// take income times the tax bracket 2 rate
+            	taxTotal = incomeInput * bracket2Rate;
+                document.write("You will need to pay " + taxTotal + " on your " + incomeInput + " income.");
+            }
+             //check if value is greater than bracket 2 max value
+            else if(incomeInput > bracket2Tax)
+            {
+                document.write("I do not have the data to calculate the tax on this income.");
+            }
+            else 
+            {
+                document.write("Invalid value");
+            }
+            
+                    
+                    
+            
+            </script>
+            
+            <p>
+                    <a href="../index.html">Home</a>
+                </p>
+        </div>
+    </body>
+</html>

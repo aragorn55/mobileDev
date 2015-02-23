@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MortalityCalculator2.IOS/cResultsiPadVC.cs">
+    <Files>
+      <File FileName="MortalityCalculator2.IOS/cPhysicalVC.cs" Line="1" Column="1" />
+      <File FileName="MortalityCalculator2.IOS/cResultsVC.cs" Line="38" Column="60" />
+      <File FileName="MortalityCalculator2.IOS/cResultsiPadVC.cs" Line="25" Column="4" />
+      <File FileName="MortalityCalculator2.IOS/cPhysicaliPadVC.cs" Line="83" Column="23" />
+      <File FileName="MortalityCalculator2.IOS/AppDelegate.cs" Line="17" Column="20" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="MortalityCalculator2.IOS" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>MeyerAsgn9</title>
+  <meta name="description" content="">
+  <meta name="author" content="joshua">
+
+</head>
+
+<body>
+  <div>
+    <header>
+      
+
+                <script>
+        function addText () {
+            /*
+            document.getElementById('par').innerHTML = "This is the new text.";
+            document.getElementById('par').style.fontSize = "24px";
+            document.getElementById('par').style.color = "#f00";
+          */
+         var paragraph =  document.getElementById('par');
+        paragraph.innerHTML = "New Text";
+            paragraph.style.fontSize = "24px";
+           paragraph.style.color = "#f00";
+        var input = paragraph.innerHTML;
+        alert(input);
+        }
+        function addSomething () {
+           /* var textfield = document.getElementById('something');
+            textfield.value = "New something";
+            textfield.focus();
+            textfield.select();
+          */
+         var input = document.getElementById('something').value;
+         alert(input);
+        }
+        
+        </script>
+
+    </header>
+    <nav>
+
+        <p id="par"></p><br /><br />
+        <input type="button" value="Add text" onclick="addText()" /><br /><br />
+        
+        <label for="something">Enter something</label><br />
+        <input type="text" id="something" /><br />
+        <input type="button" value="Add text" onclick="addSomething()" /><br /><br />
+        
+    </nav>
+
+    <div>
+       <p>
+                    <a href="../indeuserName.html">Home</a>
+                </p>
+    </div>
+
+    <footer>
+     <p>&copy; Copyright  by joshua</p>
+    </footer>
+  </div>
+</body>
+</html>

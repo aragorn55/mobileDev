@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Asgn 14 Code 1</title>
+	</head>
+<body>
+<h2>First Example:</h2>
+<h3>debug - converting a temperature from Fahrenheit to Centigrade using a loop and arrays.</h3>
+<script type="text/javascript">
+var degFahren = [212, 32, -459.15]; // get rid of new array
+var degCent = new Array();// get rid of new array
+var loopCounter;
+
+for (loopCounter = 0; loopCounter <= 2; loopCounter++)
+{
+   degCent[loopCounter] = 5/9 * (degFahren[loopCounter] - 32);
+}
+
+for (loopCounter = 2; loopCounter >= 0; loopCounter--)
+{
+   document.write("Value " + loopCounter + " was " + degFahren[loopCounter] + 
+                  " degrees Fahrenheit"); //repace loopcount with loopcounter
+   document.write(" which is " + degCent[loopCounter] + 
+                  " degrees centigrade<BR>");
+}
+</script>
+<h2>Second Example:</h2>
+<h3>debug - If statements get a number in a specific range from the user.</h3>
+<script type ="text/javascript">
+
+	var inputNum = prompt("Please enter a number between 50 and 100:");
+	
+	if (isNaN(inputNum)) { //isNaN isnaN
+	   if (inputNum.match(/one|two|three|four|five|six|seven|eight|nine|ten/))
+              {
+	   	   alert("while this is a number, it's not really a number to me.");
+	          } 
+	   else {
+	   	   alert (inputNum + " doesn't appear to be a number.");  	
+	        }
+	  }
+	else if ((inputNum > 99) || (inputNum < 51)) // replace OR with ||
+              {
+		       alert("theat number, " + inputNum + ", is not between 50 and 100.");
+	          }
+        
+	document.write("The user gave a number in the range! " + inputNum + "<br>");
+</script>
+<h2>Third Example:</h2>
+<h3>debug - do while loop to sum the numbers entered by the user</h3>
+<script type="text/javascript">
+    var sumUp = 0;
+	var loopCount=0; 
+	var inputAgain;
+		
+		do 
+		{				
+			document.write("the loop counter is " + loopCount + "<br>");
+			inputAgain = parseInt(prompt("Please enter a number between 1 and 10"));
+			if (isNaN(inputAgain)){
+			    alert("I see you did not enter a number!");
+		            }
+			else if (inputAgain < 1 || inputAgain > 10 ) 
+				{ // insert missing {
+				alert("The number you entered is not in the range given");
+				}
+			     else {
+				sumUp+=inputAgain;
+				loopCount+=1;
+			           }
+			} 	
+			while (loopCount <= 3); // replace = with <=
+			
+			document.write("The numbers summed that you entered equal " + sumUp);
+	
+</script>
+</body>
+</html>

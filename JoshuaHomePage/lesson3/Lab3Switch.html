@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+        Remove this if you use the .htaccess -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+        <title>lab3 switch</title>
+        <meta name="description" content="" />
+        <meta name="author" content="500124115" />
+
+        <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+    </head>
+
+    <body>
+        <div>
+            <header>
+                <h1>lab3 switch</h1>
+            </header>
+           
+            <div>
+                 <script>
+                var inputValue; // where the user input is stored
+                       // Ask the user to enter a grade
+            inputValue = prompt("Please enter your grade ", "");
+            inputValue = inputValue.toUpperCase();
+            switch (inputValue)
+            {
+             case "A":
+            {
+                document.write("Excellent work");
+                break;
+            }
+             case "B":
+            {
+                document.write("Great job!");
+                 break;
+            }
+             case "C":
+            {
+                document.write("Satisfactory");
+                 break;
+            }
+             case "D":
+            {
+                document.write("Needs help");
+                 break;
+            }
+             case "F":
+            {
+                document.write("Fail");
+                 break;
+            }
+            default:
+            {
+                document.write("Not a grade");
+                 break;
+            }
+               } 
+            
+                 </script>
+ <p>
+                    <a href="../index.html">Home</a>
+                </p>
+            </div>
+
+            <footer>
+                <p>
+                    &copy; Copyright  by 500124115
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

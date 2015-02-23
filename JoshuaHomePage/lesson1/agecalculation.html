@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" “http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Age Calculation</title>
+    <! -- 
+    Name: joshua meyer
+    Student ID: 500124115
+    Class: Introduction to JavaScript 81462
+    Email: jmeyer1215@gmail.com
+   -->
+</head>
+    <body>
+        <script language="JavaScript" type="text/javascript">
+
+        var numDaysInYr = 365;    // The number of days in the year
+        var avgNumDayMonth = 30.4;  // The average number of days in a month
+        var userAge; //the number of years old the user is
+        var userMonths; // the number of months since the users last birthday
+        var userAgeInDays; // the total number of days the user has lived
+/* Ask the user to enter their age in years followed by
+    a second input of the number of months since their last birthday */    
+    userAge = parseInt(prompt("Please enter your age in years "));
+    userMonths = parseInt(prompt("Please enter the number of months since your last birthday "));
+    userAgeInDays = userAge * numDaysInYr + userMonths * avgNumDayMonth;
+    document.write("You are " + userAgeInDays + " days old!");      
+    </script>
+    <p>
+                    <a href="../index.html">Home</a>
+                </p>
+</body>
+</html>
