@@ -1,15 +1,17 @@
 using System;
-using System.Drawing;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
+using CoreGraphics;
+using Foundation;
+using UIKit;
 using MortalityCalculator.OB;
+
 namespace MortalityCalculator2.IOS
 {
 	public partial class cPhysicaliPadVC : UIViewController
 	{
-		NSDate _UserBday = new NSDate();
+		NSDate _UserBday = new NSDate ();
 		cPerson _User;
 		cResultsiPadVC _ResultsiPadVC;
+
 		public cPhysicaliPadVC (cPerson oUser) : base ("cPhysicaliPadVC", null)
 		{
 			_User = oUser;
@@ -26,7 +28,7 @@ namespace MortalityCalculator2.IOS
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
-		//	imgLogo.Image
+			//	imgLogo.Image
 			//txtFeet.Text = "6";
 			//txtInches.Text = "0";
 			//txtLbs.Text = "150";
@@ -37,25 +39,25 @@ namespace MortalityCalculator2.IOS
 			//pickBDay.ValueChanged += delegate {
 			//	UIAlertView MessageBox = new UIAlertView("Date",DateTime.SpecifyKind (pickBDay.Date, DateTimeKind.Utc).ToLocalTime().ToString() ,null,"Ok");
 			//	MessageBox.Show();
-		//	};
+			//	};
 			txtFeet.ShouldReturn = delegate {
-				txtFeet.ResignFirstResponder();
+				txtFeet.ResignFirstResponder ();
 				return true;
 			};
 			txtInches.ShouldReturn = delegate {
-				txtInches.ResignFirstResponder();
+				txtInches.ResignFirstResponder ();
 				return true;
 			};
 			txtLbs.ShouldReturn = delegate {
-				txtLbs.ResignFirstResponder();
+				txtLbs.ResignFirstResponder ();
 				return true;
 			};
 			txtSleep.ShouldReturn = delegate {
-				txtSleep.ResignFirstResponder();
+				txtSleep.ResignFirstResponder ();
 				return true;
 			};
 			txtCigarettes.ShouldReturn = delegate {
-				txtCigarettes.ResignFirstResponder();
+				txtCigarettes.ResignFirstResponder ();
 				return true;
 			};
 			// Perform any additional setup after loading the view, typically from a nib.
@@ -92,7 +94,7 @@ namespace MortalityCalculator2.IOS
 									}
 
 									_ResultsiPadVC = new cResultsiPadVC (_User);
-									NavigationController.PushViewController(_ResultsiPadVC,true);
+									NavigationController.PushViewController (_ResultsiPadVC, true);
 
 
 
@@ -105,13 +107,12 @@ namespace MortalityCalculator2.IOS
 
 				
 				}
-				if ((dFeet == -1)||(dInches == -1)||(dLbs == -1)||(dSleep == -1)||(dCigarettes == -1))
-				{
-					UIAlertView alert = new  UIAlertView("Error", "Please input a number into all fields", "OK", null);
-					alert.Show(); 
+				if ((dFeet == -1) || (dInches == -1) || (dLbs == -1) || (dSleep == -1) || (dCigarettes == -1)) {
+					UIAlertView alert = new  UIAlertView ("Error", "Please input a number into all fields", null, "OK", null);
+					alert.Show (); 
 				}
 				// Perform any additional setup after loading the view, typically from a nib.
 			};
+		}
 	}
-}
 }

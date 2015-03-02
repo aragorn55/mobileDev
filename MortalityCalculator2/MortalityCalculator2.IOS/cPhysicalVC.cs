@@ -3,13 +3,15 @@ using System.Drawing;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using MortalityCalculator.OB;
+
 namespace MortalityCalculator2.IOS
 {
 	public partial class cPhysicalVC : UIViewController
 	{
-		NSDate _UserBday = new NSDate();
+		NSDate _UserBday = new NSDate ();
 		cPerson _User;
 		cLifeStyleVC _LifeStyleVC;
+
 		public cPhysicalVC (cPerson oUser) : base ("cPhysicalVC", null)
 		{
 			_User = oUser;
@@ -35,19 +37,19 @@ namespace MortalityCalculator2.IOS
 
 			pickBDay.MaximumDate = NSDate.Now;
 			pickBDay.ValueChanged += delegate {
-				UIAlertView MessageBox = new UIAlertView("Date",DateTime.SpecifyKind (pickBDay.Date, DateTimeKind.Utc).ToLocalTime().ToString() ,null,"Ok");
-				MessageBox.Show();
+				UIAlertView MessageBox = new UIAlertView ("Date", DateTime.SpecifyKind (pickBDay.Date, DateTimeKind.Utc).ToLocalTime ().ToString (), null, "Ok");
+				MessageBox.Show ();
 			};
 			txtFeet.ShouldReturn = delegate {
-				txtFeet.ResignFirstResponder();
+				txtFeet.ResignFirstResponder ();
 				return true;
 			};
 			txtInches.ShouldReturn = delegate {
-				txtInches.ResignFirstResponder();
+				txtInches.ResignFirstResponder ();
 				return true;
 			};
 			txtLbs.ShouldReturn = delegate {
-				txtLbs.ResignFirstResponder();
+				txtLbs.ResignFirstResponder ();
 				return true;
 			};
 			// Perform any additional setup after loading the view, typically from a nib.
@@ -59,29 +61,24 @@ namespace MortalityCalculator2.IOS
 				double dLbs;
 
 
-				if (double.TryParse(txtFeet.Text, out dFeet))
-				    {
+				if (double.TryParse (txtFeet.Text, out dFeet)) {
 
-					if (double.TryParse(txtInches.Text, out dInches))
-					    {
+					if (double.TryParse (txtInches.Text, out dInches)) {
 
-						if (double.TryParse(txtLbs.Text, out dLbs)){
+						if (double.TryParse (txtLbs.Text, out dLbs)) {
 
 							//openlifestyleView
-							_User.BirthDate = DateTime.SpecifyKind(pickBDay.Date, DateTimeKind.Unspecified);
+							_User.BirthDate = DateTime.SpecifyKind (pickBDay.Date, DateTimeKind.Unspecified);
 							_User.Height = (12.0 * dFeet) + dInches;
 							_User.Weight = dLbs;
-							if (segGender.SelectedSegment == 0)
-							{
+							if (segGender.SelectedSegment == 0) {
 								_User.Sex = eGender.male;
-							}
-							else
-							{
+							} else {
 								_User.Sex = eGender.female;
 							}
 
 							_LifeStyleVC = new cLifeStyleVC (_User);
-							NavigationController.PushViewController(_LifeStyleVC,true);
+							NavigationController.PushViewController (_LifeStyleVC, true);
 
 						}
 					}
@@ -90,18 +87,18 @@ namespace MortalityCalculator2.IOS
 
 
 			};
-		//	btnClear.TouchUpInside += delegate {
-		//		conn.Execute("delete from Location");
-		//		MyLocations.Clear();
-		//		tvList.ReloadData();
-		//	};
+			//	btnClear.TouchUpInside += delegate {
+			//		conn.Execute("delete from Location");
+			//		MyLocations.Clear();
+			//		tvList.ReloadData();
+			//	};
 		}
 
 		//public override bool ShouldAutorotateToInterfaceOrientation (UIInterfaceOrientation toInterfaceOrientation)
-	//	{
-			// Return true for supported orientations
+		//	{
+		// Return true for supported orientations
 		//	return (toInterfaceOrientation != UIInterfaceOrientation.PortraitUpsideDown);
-	//	}
+		//	}
 	}
 }
 

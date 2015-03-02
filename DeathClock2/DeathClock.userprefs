@@ -1,4 +1,4 @@
-﻿<Properties>
+﻿<Properties StartupItem="MortalityCalculator2.IOS/MortalityCalculator2.IOS.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="DeathClock.Droid\ControllClass.cs">
     <Files>

@@ -1,7 +1,7 @@
 using System;
-using System.Drawing;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
+using CoreGraphics;
+using Foundation;
+using UIKit;
 using MortalityCalculator.OB;
 
 namespace MortalityCalculator2.IOS
@@ -41,11 +41,11 @@ namespace MortalityCalculator2.IOS
 			//txtSleep.Text = "8";
 			//txtCigarettes.Text = "0";
 			txtSleep.ShouldReturn = delegate {
-				txtSleep.ResignFirstResponder();
+				txtSleep.ResignFirstResponder ();
 				return true;
 			};
 			txtCigarettes.ShouldReturn = delegate {
-				txtCigarettes.ResignFirstResponder();
+				txtCigarettes.ResignFirstResponder ();
 				return true;
 			};
 			btnCalculate.TouchUpInside += delegate {
@@ -66,22 +66,21 @@ namespace MortalityCalculator2.IOS
 						
 
 						_cResultsVC = new cResultsVC (_User);
-						NavigationController.PushViewController(_cResultsVC,true);
+						NavigationController.PushViewController (_cResultsVC, true);
 
 					}
 				}
-				if ((dSleep == -1)||(dCigarettes == -1))
-				{
-					UIAlertView alert = new  UIAlertView("Error", "Please input a number into all fields", "OK", null);
-					alert.Show(); 
+				if ((dSleep == -1) || (dCigarettes == -1)) {
+					UIAlertView alert = new UIAlertView ("Error", "Please input a number into all fields", null, "OK", null);
+					alert.Show (); 
 				}
 			};
 
 
 
-			}
-			// Perform any additional setup after loading the view, typically from a nib.
 		}
+		// Perform any additional setup after loading the view, typically from a nib.
 	}
+}
 
 

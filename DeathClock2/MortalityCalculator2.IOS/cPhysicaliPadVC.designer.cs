@@ -4,7 +4,7 @@
 // actions made in the UI designer. If it is removed, they will be lost.
 // Manual changes to this file may not be handled correctly.
 //
-using MonoTouch.Foundation;
+using Foundation;
 using System.CodeDom.Compiler;
 
 namespace MortalityCalculator2.IOS
@@ -13,31 +13,31 @@ namespace MortalityCalculator2.IOS
 	partial class cPhysicaliPadVC
 	{
 		[Outlet]
-		MonoTouch.UIKit.UIButton btnCalculate { get; set; }
+		UIKit.UIButton btnCalculate { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UIImageView imgLogo { get; set; }
+		UIKit.UIImageView imgLogo { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UIDatePicker pickBDay { get; set; }
+		UIKit.UIDatePicker pickBDay { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UISegmentedControl segGender { get; set; }
+		UIKit.UISegmentedControl segGender { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UITextField txtCigarettes { get; set; }
+		UIKit.UITextField txtCigarettes { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UITextField txtFeet { get; set; }
+		UIKit.UITextField txtFeet { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UITextField txtInches { get; set; }
+		UIKit.UITextField txtInches { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UITextField txtLbs { get; set; }
+		UIKit.UITextField txtLbs { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UITextField txtSleep { get; set; }
+		UIKit.UITextField txtSleep { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{

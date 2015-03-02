@@ -4,7 +4,7 @@
 // actions made in the UI designer. If it is removed, they will be lost.
 // Manual changes to this file may not be handled correctly.
 //
-using MonoTouch.Foundation;
+using Foundation;
 using System.CodeDom.Compiler;
 
 namespace MortalityCalculator2.IOS
@@ -13,13 +13,13 @@ namespace MortalityCalculator2.IOS
 	partial class cResultsiPadVC
 	{
 		[Outlet]
-		MonoTouch.UIKit.UIButton btnExit { get; set; }
+		UIKit.UIButton btnExit { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UIImageView imgLogo { get; set; }
+		UIKit.UIImageView imgLogo { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UILabel lblYears { get; set; }
+		UIKit.UILabel lblYears { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
