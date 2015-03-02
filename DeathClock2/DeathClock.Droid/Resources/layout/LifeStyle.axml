@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1">
+    <TextView
+        p1:text="I smoke about"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="152.2dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1"
+        p1:layout_marginLeft="8.7dp" />
+    <TextView
+        p1:text="hours per night"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/textView1"
+        p1:id="@+id/textView2"
+        p1:layout_marginTop="8.7dp"
+        p1:layout_marginLeft="5.0dp" />
+    <EditText
+        p1:inputType="numberDecimal"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/txtCigarettes"
+        p1:layout_alignParentTop="true"
+        p1:layout_toRightOf="@id/textView1" />
+    <TextView
+        p1:text="Large Text"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_toRightOf="@id/txtCigarettes"
+        p1:id="@+id/textView3" />
+    <EditText
+        p1:inputType="numberDecimal"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/txtCigarettes"
+        p1:id="@+id/txtSleep"
+        p1:layout_toRightOf="@id/textView2" />
+    <TextView
+        p1:text="Large Text"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_toRightOf="@id/txtSleep"
+        p1:id="@+id/textView4"
+        p1:layout_below="@id/textView3" />
+    <Button
+        p1:text="Button"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/textView2"
+        p1:id="@+id/btnCalculate"
+        p1:layout_marginTop="18.6dp" />
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/btnCalculate"
+        p1:id="@+id/imageView1" />
+</RelativeLayout>

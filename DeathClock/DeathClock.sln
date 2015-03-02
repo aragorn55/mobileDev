@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeathClock.Droid", "DeathClock.Droid\DeathClock.Droid.csproj", "{AF0C02F2-CAF8-4BD4-A4A9-2E989A65F65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeathClock.OB", "DeathClock.OB\DeathClock.OB.csproj", "{593B3301-4443-46EF-BA81-E954B89BA450}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{593B3301-4443-46EF-BA81-E954B89BA450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593B3301-4443-46EF-BA81-E954B89BA450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593B3301-4443-46EF-BA81-E954B89BA450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593B3301-4443-46EF-BA81-E954B89BA450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0C02F2-CAF8-4BD4-A4A9-2E989A65F65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0C02F2-CAF8-4BD4-A4A9-2E989A65F65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0C02F2-CAF8-4BD4-A4A9-2E989A65F65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0C02F2-CAF8-4BD4-A4A9-2E989A65F65D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = DeathClock.Droid\DeathClock.Droid.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1">
+    <TextView
+        p1:text="Height"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="82.7dp"
+        p1:layout_height="36.6dp"
+        p1:id="@+id/textView1"
+        p1:layout_marginLeft="6.3dp"
+        p1:layout_marginTop="1.8dp" />
+    <TextView
+        p1:text="Weight"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/textView1"
+        p1:id="@+id/textView2"
+        p1:layout_marginTop="7.2dp"
+        p1:layout_marginLeft="12.6dp" />
+    <TextView
+        p1:text="Gender"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/textView2"
+        p1:id="@+id/textView3"
+        p1:layout_marginTop="2.7dp"
+        p1:layout_marginLeft="13.5dp" />
+    <EditText
+        p1:inputType="numberDecimal"
+        p1:layout_width="43.2dp"
+        p1:layout_height="wrap_content"
+        p1:layout_toRightOf="@id/textView1"
+        p1:id="@+id/txtFeet" />
+    <TextView
+        p1:text="ft."
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_toRightOf="@id/txtFeet"
+        p1:id="@+id/textView4"
+        p1:layout_marginTop="4.5dp" />
+    <EditText
+        p1:inputType="numberDecimal"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_toRightOf="@id/textView4"
+        p1:id="@+id/txtInches" />
+    <TextView
+        p1:text="in."
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_toRightOf="@id/txtInches"
+        p1:id="@+id/textView5"
+        p1:layout_marginTop="3.6dp" />
+    <EditText
+        p1:inputType="numberDecimal"
+        p1:layout_width="62.3dp"
+        p1:layout_height="wrap_content"
+        p1:layout_toRightOf="@id/textView2"
+        p1:id="@+id/txtLbs"
+        p1:layout_below="@id/txtFeet"
+        p1:layout_marginLeft="1.8dp" />
+    <TextView
+        p1:text="lbs."
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/txtFeet"
+        p1:id="@+id/textView6"
+        p1:layout_toRightOf="@id/txtLbs"
+        p1:layout_marginTop="7.2dp" />
+    <TextView
+        p1:text="BirthDate"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/textView3"
+        p1:id="@+id/textView7"
+        p1:layout_marginTop="6.3dp"
+        p1:layout_marginLeft="13.5dp" />
+    <RadioGroup
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="182.1dp"
+        p1:layout_height="wrap_content"
+        p1:layout_toRightOf="@id/textView3"
+        p1:id="@+id/rbGender"
+        p1:layout_marginLeft="40.6dp"
+        p1:layout_below="@id/textView6"
+        p1:orientation="horizontal">
+        <RadioButton
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:checked="true"
+            p1:text="Male"
+            p1:id="@+id/rbMale" />
+        <RadioButton
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:text="Female"
+            p1:id="@+id/rbFemale" />
+    </RadioGroup>
+    <TextView
+        p1:text="00/00/00"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/lblDateDisplay"
+        p1:layout_marginTop="0.0dp"
+        p1:gravity="center"
+        p1:layout_below="@id/rbGender"
+        p1:layout_toRightOf="@id/textView7"
+        p1:layout_marginLeft="12.6dp" />
+    <Button
+        p1:text="Set BirthDate"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/lblDateDisplay"
+        p1:id="@+id/btnChooseDate"
+        p1:layout_marginTop="14.0dp" />
+    <Button
+        p1:text="LifeStyle Factors"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/btnChooseDate"
+        p1:id="@+id/btnLifeStyle" />
+</RelativeLayout>
